@@ -1,0 +1,49 @@
+{
+  "index.html": {
+    "refer": [
+      "tab_index.html"
+    ]
+  },
+  "tab_index.html": {
+    "resources": [
+      "tab_index_1.html",
+      "tab-webview-subpage-about.html"
+    ],
+    "refer": [
+      "tab_index_3.html",
+      "tab_index_4.html",
+      "tab_index_1.html",
+      "tab_index_2.html",
+      "tab-webview-subpage-about.html",
+      "tab-webview-subpage-setting.html",
+      "tab-webview-subpage-chat.html",
+      "tab-webview-subpage-contact.html"
+    ]
+  },
+  "tab-webview-subpage-about.html": {
+    "refer": [
+      "artContent.html"
+    ]
+  },
+  "tab-webview-subpage-setting.html": {
+    "refer": [
+      "safeSetting.html",
+      "team.html",
+      "redemptionAccount.html",
+      "shareInMaking.html",
+      "message.html",
+      "profit.html",
+      "code.html"
+    ]
+  },
+  "redemptionAccount.html": {
+    "refer": [
+      "redeem.html"
+    ]
+  },
+  "code.html": {
+    "refer": [
+      "receiptCode.html"
+    ]
+  }
+}
